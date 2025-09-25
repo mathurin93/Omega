@@ -12,12 +12,21 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: whitesmoke;
+            background-color: white;
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
+        .omega-blue {
+    color: #001B96;
+        }
+        .omega-orange {
+    color: #E98300;
+        }
+  
+
     </style>
+    
 </head>
 
 <body class="text-black">
@@ -27,55 +36,39 @@
         <main class="flex-grow flex items-center justify-center p-4">
             <div class="max-w-3xl w-full text-center">
 
-                <!-- Weather Widget -->
-                <!-- <div id="weather-widget" class="my-12 max-w-xs mx-auto bg-gray-800 bg-opacity-70 rounded-xl p-6 shadow-lg">
-                    <div class="flex items-center justify-center space-x-4">
-                        <div>
-                            <h4 class="text-lg font-semibold text-white">Local Weather</h4>
-                            <p id="weather-temp" class="text-3xl font-bold text-blue-500">--°C</p>
-                            <p id="weather-condition" class="text-sm text-gray-300">Loading...</p>
-                        </div>
-                        <div>
-                            <span id="weather-icon" class="text-5xl">🌤️</span>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Main Text -->
-                <!-- Welcome Text -->
-                <!-- <h1 class="text-lg sm:text-4xl font-semibold text-gray-800 mb-4 sm:mb-6">
-                    Welcome to <span class="text-blue-500 text-xl sm:text-5xl font-bold">Omega</span>
-                </h1>
-                <p class="text-xl md:text-2xl font-extrabold leading-tight mb-4">A <span class="text-blue-500">Nitro
-                        Boost</span> for Your Dealership's Financial Analytics.</p> -->
-                <!-- Welcome Text -->
-                <h1 class="text-4xl sm:text-6xl font-semibold text-gray-800 mb-4 sm:mb-6">
-                    Welcome to <span class="text-blue-500 text-5xl sm:text-7xl font-bold">Omega</span>
+                
+                <!-- <h1 class="text-4xl sm:text-6xl font-semibold text-gray-800 mb-4 sm:mb-6">
+                    Welcome to <span class="omega-blue text-5xl sm:text-7xl font-bold">Omega</span>
+                </h1> -->
+                <h1
+                    class="text-3xl sm:text-4xl font-semibold text-gray-800 mb-4 sm:mb-6 flex flex-col sm:flex-row items-center justify-center text-center">
+                    <span>Welcome to</span>
+                    <img src="Images/logo.jpg" alt="Omega Logo" class="mt-2 sm:mt-0 sm:ml-3 h-20 sm:h-24 md:h-28 w-auto object-contain">
                 </h1>
                 <p class="text-lg sm:text-2xl font-extrabold leading-tight mb-4 text-gray-800">
-                    A <span class="text-blue-500">Nitro Boost</span> for Your<br> Dealership's Financial<br> Analytics.
+                    A <span class="text-red-800">Nitro Boost</span> for Your<br> Dealership's Financial<br> Analytics.
                 </p>
 
                 <!-- Animated Stats Widget -->
                 <div id="stats-widget" class="my-12 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
                     <div class="text-center">
-                        <span id="stat1" class="text-4xl md:text-5xl font-bold text-blue-500">0</span><span
-                            class="text-4xl md:text-5xl font-bold text-orange-500">+</span>
+                        <span id="stat1" class="text-4xl md:text-5xl font-bold omega-blue">0</span><span
+                            class="text-4xl md:text-5xl font-bold omega-orange">+</span>
                         <p class="text-gray-800 mt-2 text-sm">Dealerships Empowered</p>
                     </div>
                     <div class="text-center">
-                        <span id="stat2" class="text-4xl md:text-5xl font-bold text-blue-500">0</span><span
-                            class="text-4xl md:text-5xl font-bold text-orange-500">+</span>
+                        <span id="stat2" class="text-4xl md:text-5xl font-bold omega-blue">0</span><span
+                            class="text-4xl md:text-5xl font-bold omega-orange">+</span>
                         <p class="text-gray-800 mt-2 text-sm">Hours Saved Weekly</p>
                     </div>
                     <div class="text-center">
-                        <span id="stat3" class="text-4xl md:text-5xl font-bold text-blue-500">0</span><span
-                            class="text-4xl md:text-5xl font-bold text-orange-500">%</span>
+                        <span id="stat3" class="text-4xl md:text-5xl font-bold omega-blue">0</span><span
+                            class="text-4xl md:text-5xl font-bold omega-orange">%</span>
                         <p class="text-gray-800 mt-2 text-sm">Profitability Insight</p>
                     </div>
                 </div>
 
-                <hr class="border-orange-700 my-8 max-w-xs sm:max-w-sm mx-auto">
+                <hr class="border-red-600 my-8 max-w-xs sm:max-w-sm mx-auto">
 
                 <!-- Contact Info -->
                 <div>
@@ -86,9 +79,9 @@
                     </a> -->
                     <div class="mt-1 text-sm">
                         <p class="text-gray-800">Call Us: <a href="tel:888-390-0632"
-                                class="text-blue-500 hover:underline font-semibold">(888) 390-0632</a></p>
+                                class="omega-blue hover:underline font-semibold">(888) 390-0632</a></p>
                         <p class="text-gray-800 mt-1">Email: <a href="mailto:omega@cdisoftware.com"
-                                class="text-blue-500 hover:underline font-semibold">omega@cdisoftware.com</a></p>
+                                class="omega-blue hover:underline font-semibold">omega@cdisoftware.com</a></p>
                     </div>
                 </div>
 
